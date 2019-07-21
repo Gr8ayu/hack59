@@ -4,7 +4,7 @@ html {
 }
 
 /*original pink color : #e91e63, on hover #f50057  */ 
-/*replaced with color : #89e81e on hover  #5eaf01*/
+/*replaced with color : #89e81e on hover  #02cc0c*/
 
 body {
   background: #fff;
@@ -226,7 +226,7 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background: #5eaf01;
+  background: #02cc0c;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -919,6 +919,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #89e81e;
   overflow: hidden;
   position: relative;
+  color:#000;
   /* 
     &:before{
     	content: '';
@@ -941,18 +942,18 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .counter-section .counter .icon i {
   font-size: 60px;
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .counter-section .counter p {
   font-size: 15px;
-  color: #fff;
+  /*color: #fff;*/
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .counter-section .counter span {
-  color: #fefefe;
+  /*color: #fefefe;*/
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
